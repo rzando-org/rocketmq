@@ -113,7 +113,7 @@
         <gson.version>2.9.0</gson.version>
         <openmessaging.version>0.3.1-alpha</openmessaging.version>
         <snakeyaml.version>2.0</snakeyaml.version>
-        <commons-codec.version>1.13</commons-codec.version>
+        <commons-codec.version>1.14</commons-codec.version>
         <rocketmq-logging.version>1.0.1</rocketmq-logging.version>
         <slf4j-api.version>2.0.3</slf4j-api.version>
         <rocketmq-shaded-slf4j-api-bridge.version>1.0.0</rocketmq-shaded-slf4j-api-bridge.version>
@@ -232,8 +232,8 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <banCircularDependencies />
-                        <dependencyConvergence />
+                        <banCircularDependencies/>
+                        <dependencyConvergence/>
                     </rules>
                     <fail>true</fail>
                 </configuration>
